@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebTutorial - Best Learning Platform</title>
+
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">WebTutorial</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">WebTutorial</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Log In</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+      
+          <div class="hero-content">
+      
+            <p class="hero-subtitle has-before">Welcome to Coding World</p>
+      
+            <h1 class="h1 hero-title">Best Learning Online Platform</h1>
+      
+            <p class="hero-text">
+              Join us to master the skills of tomorrow. Our platform offers comprehensive courses designed to provide hands-on experience and real-world applications. Start your journey towards a successful career in tech today!
+            </p>
+      
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Get Started</a>
+      
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <span class="span">How it works</span>
+              </button>
+            </div>
+      
+          </div>
+      
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">We create some things, Design for your success future.</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
+              the industrys
+              standard dummy text ever.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Best Learning Platform with 10000+ Courses
+              </li>
+
+              <li class="has-before">
+                Best Proffessors with 10+ years of Experience
+              </li>
+
+              <li class="has-before">
+                Get Certified with Certificate After completion of Course
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Enroll Now</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">10+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+      
+          <p class="section-subtitle text-center">-What We Offer-</p>
+      
+          <h2 class="h2 section-title text-center">Best Courses</h2>
+      
+          <p class="section-text text-center">
+            Get certified in the most trending courses with a certificate.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Web Development</h3>
+      
+                  <p class="card-text">
+                    Learn to build modern, responsive websites using HTML, CSS, JavaScript, and popular frameworks. Master both front-end and back-end development.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-2.png" width="140" height="140" loading="lazy" alt="App Development" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">App Development</h3>
+      
+                  <p class="card-text">
+                    Develop your skills in creating mobile applications for Android and iOS. Learn the latest technologies like Flutter and React Native.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-3.png" width="140" height="140" loading="lazy" alt="Professional Content Writer" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Professional Content Writer</h3>
+      
+                  <p class="card-text">
+                    Enhance your writing skills to create compelling content for blogs, websites, and social media. Learn SEO and content marketing strategies.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Graphic Design</h3>
+      
+                  <p class="card-text">
+                    Unlock your creativity with courses on graphic design. Learn to use tools like Adobe Photoshop and Illustrator to create stunning visuals.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Graphic Design</h3>
+      
+                  <p class="card-text">
+                    Master the principles of design, color theory, typography, and more. Create professional graphics for various media.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Graphic Design</h3>
+      
+                  <p class="card-text">
+                    Gain proficiency in graphic design software and learn to create visually appealing content for branding, marketing, and more.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Graphic Design</h3>
+      
+                  <p class="card-text">
+                    Learn the latest trends and techniques in graphic design. Build a portfolio of work that stands out in the industry.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card has-after">
+      
+                <figure class="card-icon">
+                  <img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3 card-title">Graphic Design</h3>
+      
+                  <p class="card-text">
+                    Dive deep into advanced graphic design concepts and techniques. Enhance your skills to create professional-grade projects.
+                  </p>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Start</span>
+      
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+          <a href="#" class="btn btn-primary" id="load-more">Load More</a>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+  - #FEATURES
+-->
+<section class="section features" id="features" aria-label="Features">
+  <div class="container">
+  
+    <p class="section-subtitle text-center">-Why Choose Us-</p>
+  
+    <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+  
+    <p class="section-text text-center">
+      You will get access to both free and paid courses, with or without certificates. You can also link your certificate to your LinkedIn profile.
+    </p>
+  
+    <ul class="grid-list">
+      <!-- Feature 1 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="01">01</data>
+          <h3 class="h3 card-title">Free 30-Day Access</h3>
+          <p class="card-text">
+            Enjoy a 30-day free trial to explore all the features and content we offer without any cost.
+          </p>
+        </div>
+      </li>
+  
+      <!-- Feature 2 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="02">02</data>
+          <h3 class="h3 card-title">6 Months Certification</h3>
+          <p class="card-text">
+            Earn certifications that are valid for six months, helping you enhance your resume and skills.
+          </p>
+        </div>
+      </li>
+  
+      <!-- Feature 3 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="03">03</data>
+          <h3 class="h3 card-title">Video Content Available</h3>
+          <p class="card-text">
+            Access a rich library of video content that covers various topics and skill levels.
+          </p>
+        </div>
+      </li>
+  
+      <!-- Feature 4 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="04">04</data>
+          <h3 class="h3 card-title">Project-Based Learning</h3>
+          <p class="card-text">
+            Gain hands-on experience by working on real-world projects, helping you apply what you’ve learned.
+          </p>
+        </div>
+      </li>
+  
+      <!-- Feature 5 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="05">05</data>
+          <h3 class="h3 card-title">Basic to Advanced Courses</h3>
+          <p class="card-text">
+            Our courses range from basic to advanced levels, catering to learners at any stage of their education.
+          </p>
+        </div>
+      </li>
+  
+      <!-- Feature 6 -->
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="06">06</data>
+          <h3 class="h3 card-title">Affordable Pricing</h3>
+          <p class="card-text">
+            Enjoy high-quality education at affordable prices, making it accessible for everyone.
+          </p>
+        </div>
+      </li>
+  
+    </ul>
+  
+  </div>
+</section>
+
+      
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="Frequently Asked Questions">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Discover Frequently Asked Questions</h2>
+            <a href="#" class="btn btn-primary">Work Together</a>
+          </div>
+      
+          <ul class="grid-list">
+            <!-- FAQ Item 1 -->
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">01. Curious about how to build your own UX strategy? Here are five simple steps.</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    To build your own UX strategy, follow these steps:
+                    <ol>
+                      <li>Understand your users through research and personas.</li>
+                      <li>Define clear goals and objectives for your UX efforts.</li>
+                      <li>Create a roadmap and prioritize tasks based on user needs.</li>
+                      <li>Design and prototype solutions, iterating based on feedback.</li>
+                      <li>Measure success through usability testing and analytics.</li>
+                    </ol>
+                  </p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- FAQ Item 2 -->
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    A career in UX can lead to various paths:
+                    <ul>
+                      <li><strong>Agency:</strong> Work with diverse clients and projects, often in a fast-paced environment.</li>
+                      <li><strong>In-House:</strong> Focus on a single brand or product, allowing for deeper involvement and long-term impact.</li>
+                      <li><strong>Freelance:</strong> Enjoy flexibility and autonomy, but requires strong self-discipline and business skills.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- FAQ Item 3 -->
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">03. What Is a Problem Statement in UX? (And How To Write One)</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    A problem statement in UX is a concise description of an issue that needs addressing. It helps align the team and guides the design process. To write one:
+                    <ol>
+                      <li>Identify the problem from user research.</li>
+                      <li>Describe who is affected and how.</li>
+                      <li>Explain the impact of the problem.</li>
+                      <li>Keep it clear and concise.</li>
+                    </ol>
+                  </p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- FAQ Item 4 -->
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">04. What techniques do UX designers use to arrive at a succinct solution?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    UX designers use several techniques to develop succinct solutions:
+                    <ul>
+                      <li><strong>User Research:</strong> Gather insights through interviews, surveys, and observations.</li>
+                      <li><strong>Personas:</strong> Create detailed user profiles to understand needs and behaviors.</li>
+                      <li><strong>Wireframing:</strong> Design low-fidelity prototypes to visualize layout and functionality.</li>
+                      <li><strong>Usability Testing:</strong> Conduct tests with real users to identify issues and improve designs.</li>
+                      <li><strong>Iterative Design:</strong> Continuously refine designs based on feedback and testing results.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </li>
+      
+            <!-- FAQ Item 5 -->
+            <li>
+              <div class="faq-card">
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">05. What are the obstacles users are facing? What are they trying to do?</h3>
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+                <div class="card-content">
+                  <p>
+                    Users often face obstacles such as:
+                    <ul>
+                      <li><strong>Complex Navigation:</strong> Difficulty in finding information due to poor site structure.</li>
+                      <li><strong>Unintuitive Design:</strong> Struggle to understand how to use the interface.</li>
+                      <li><strong>Slow Performance:</strong> Frustration caused by long load times.</li>
+                    </ul>
+                    They are trying to accomplish tasks such as:
+                    <ul>
+                      <li>Finding specific information quickly.</li>
+                      <li>Completing transactions or forms efficiently.</li>
+                      <li>Understanding and using features without confusion.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+ 
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
